@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color: rgb(224, 224, 224);
+    font-family: "Marcellus", serif;
 }
 #container{
     max-width: 980px;
@@ -51,6 +52,9 @@ a:hover{
     display: flex;
     margin-bottom: 32px;
     background-color: white;
+    padding: 32px;
+    border-radius: 40px 5px;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 1.5);
 }
 .idea img {
     width: 60px;
@@ -59,6 +63,13 @@ a:hover{
 }
 .idea h3{
     margin: 0;
+}
+.idea p {
+    margin: 8px 0;
+    color: #777;
+}
+.idea .description {
+    margin: 16px 0;
 }
 .hide{
     display: none;
