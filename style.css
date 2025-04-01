@@ -86,3 +86,9 @@ p, .description{
 footer{
     text-align: center;
 }
+
+/*MODAL*/
+#modal{
+    background-color: #ff5E84;
+    position: absolute;
+}
