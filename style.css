@@ -10,7 +10,7 @@ body{
 }
 #intro{
     width: 300px;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 main{
     margin: 32px 100px 0 0 ;    
@@ -34,7 +34,7 @@ button:hover{
     color: white;
     width: 150px;
     height: 40px;
-    border-radius: 50px 0;
+    border-radius: 40px 5px;
     box-shadow: 1px 4px 6px #ff5E84;
 }
 button.color:hover{
@@ -54,7 +54,7 @@ a:hover{
 }
 .idea{
     display: flex;
-    margin-bottom: 32px;
+    margin-bottom: 22px;
     background-color: white;
     padding: 20px;
     border-radius: 40px 5px;
@@ -69,15 +69,14 @@ a:hover{
     margin: 0;
 }
 .idea p {
-    margin: 8px 0;
+    margin: 2px 0;
     color: #777;
+    
 }
-.idea .description {
-    margin: 16px 0;
-}
+
 p, .description{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0.1px;
 }
 
@@ -91,13 +90,12 @@ footer{
     position: absolute;
     top: 0;
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     transition: 400ms;
 }
 #modal #content {
-    margin-top: 50px;
+
     color: white;
 }
 #modal #content h1 {
