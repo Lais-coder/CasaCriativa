@@ -93,32 +93,40 @@ footer{
     position: absolute;
     top: 0;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
 }
 #modal #content {
-    margin-top: 128px;
+    margin-top: 50px;
     color: white;
 }
 #modal #content h1 {
     text-align: center;
     text-transform: uppercase;
 }
-#content form{
+#modal form{
     width: 80%;
     max-width: 800px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
 }
-.input-wrapper{
-    margin: 16px 0;
+
+#content form div:nth-child(3),
+#content form div:nth-child(4),
+#content form div:nth-child(5){
+    grid-column: span 2;
 }
+
 form input, form textarea{
     width: 100%;
     padding: 13px;
     border-radius: 6px;
     border: 1px solid #cc0030be;
     outline: none;
+    box-sizing: border-box;
 }
 form label {
     font-weight: 600;
@@ -130,6 +138,8 @@ form button {
     height: 40px;
     border-radius: 6px;
     cursor: pointer;
+    grid-column: 2;
+    justify-self: end;
 }
 form button:hover{
     background-color: blue;
