@@ -19,7 +19,7 @@
                 <p>Comece clicando em Ver Ideias para ver as ideias cadastradas ou contribua adicionando a sua ideia.</p>
             </main>
             <section id="buttons">
-                <button> + Adicionar Ideia </button>
+                <button onclick="onOff()"> + Adicionar Ideia </button>
                 <button class="color"> Ver Ideias </button>
             </section>
             <footer>
@@ -61,10 +61,10 @@
             </div>
             </div> 
         </section> 
-        <script src="script.js"></script>
+        
     </div>
     <div id="modal">
-        <div id="content">
+        <div id="content" class="hide">
             <h1>Nova Ideia</h1>
             <form action="">
                 <div class="input-wrapper"><label for="title">Titulo da ideia</label>
@@ -85,9 +85,11 @@
                 <div class="input-wrapper"><label for="link">Link da ideia</label>
                     <input type="url" name="link">
                 </div>
+                <a href="#" onclick="onOff()">Voltar</a>
                 <button>Salvar</button>
             </form>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

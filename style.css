@@ -80,9 +80,7 @@ p, .description{
     line-height: 24px;
     letter-spacing: 0.1px;
 }
-.hide{
-    display: none;
-}
+
 footer{
     text-align: center;
 }
@@ -96,6 +94,7 @@ footer{
     height: auto;
     display: flex;
     justify-content: center;
+    transition: 400ms;
 }
 #modal #content {
     margin-top: 50px;
@@ -132,6 +131,25 @@ form label {
     font-weight: 600;
     line-height: 32px;
 }
+
+form a {
+    background-color: rgba(255, 255, 255, 0.144);
+    color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: end;
+    border-radius: 6px;
+    transition: 400ms;
+}
+
+form a:hover{
+    background-color: white;
+    color: #ff5E84;
+}
+
 form button {
     background-color: white;
     width: 150px;
@@ -140,9 +158,15 @@ form button {
     cursor: pointer;
     grid-column: 2;
     justify-self: end;
+    transition: 400ms;
 }
 form button:hover{
     background-color: blue;
     color: white;
     text-decoration: none;
+}
+
+#modal.hide{
+    opacity: 0;
+    visibility: hidden;
 }
