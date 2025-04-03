@@ -91,4 +91,32 @@ footer{
 #modal{
     background-color: #ff5E84;
     position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#modal #content {
+    margin-top: 128px;
+    color: white;
+}
+#modal #content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+#content form{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.input-wrapper{
+    margin: 16px 0;
+}
+form input, form textarea{
+    width: 100%;
+    padding: 13px;
+    border-radius: 6px;
+    border: 1px solid #cc0030be;
+    outline: none;
 }
