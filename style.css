@@ -124,3 +124,15 @@ form label {
     font-weight: 600;
     line-height: 32px;
 }
+form button {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
